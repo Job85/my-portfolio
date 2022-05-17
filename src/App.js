@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav';
 import ProjectPage from './pages/ProjectPage'
-import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Nav />
       </header>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
         <Route path='/projects' element={<ProjectPage />} />
       </Routes>
     </div>
