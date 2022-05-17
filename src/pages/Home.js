@@ -1,14 +1,9 @@
 import React from "react";
 
-const About = () => {
+const Home = () => {
 
     return (
         <div>
-            <section>
-                <h1>
-                    About Julian
-                </h1>
-            </section>
             <section>
                 <div>
                     <h3> Greetings, from sunny Florida!</h3>
@@ -30,4 +25,4 @@ const About = () => {
 }
 
 
-export default About
+export default Home
