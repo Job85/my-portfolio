@@ -3,6 +3,8 @@ import { Route, Routes, Navigate } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav';
+import ProjectPage from './pages/ProjectPage'
+
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
         <Nav />
       </header>
       <Routes>
-
+        <Route path='/projects' element={<ProjectPage />} />
       </Routes>
     </div>
   );

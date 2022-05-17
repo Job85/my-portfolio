@@ -4,9 +4,10 @@ const Nav = () => {
 
     return (
         <nav className='navbar'>
-            <h2>nav bar</h2>
             <div>
-                <Link />
+                <Link to='projects'>Projects</Link>
+                <Link to='about'>About</Link>
+                <Link to='resume'>Resume</Link>
             </div>
         </nav>
     )
