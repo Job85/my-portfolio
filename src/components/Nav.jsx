@@ -1,13 +1,9 @@
 import { Link } from 'react-router-dom'
-import WebImage from '../images/WebImage'
 // import pic from '../HeadShot.jpeg'
 const Nav = () => {
 
     return (
         <div>
-            <header>
-                <WebImage />
-            </header>
             <nav className='navbar'>
                 <div>
                     <Link to='projects'>Projects</Link>
