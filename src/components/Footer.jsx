@@ -1,12 +1,12 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
-import { Box, Container, FooterLink } from './FooterStyles';
+import { FooterBox, FooterContainer, FooterLink } from './ComopnentStyles';
 
 const Footer = () => {
 
     return (
-        <Box>
-            <Container>
+        <FooterBox>
+            <FooterContainer>
                 <div>
                     <h1>Social Links</h1>
                     <FooterLink href='https://github.com/Job85'>
@@ -20,8 +20,8 @@ const Footer = () => {
                         </i>
                     </FooterLink>
                 </div>
-            </Container>
-        </Box>
+            </FooterContainer>
+        </FooterBox>
     )
 
 }

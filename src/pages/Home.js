@@ -1,10 +1,10 @@
-import MatrixRain from "../components/MatrixRain";
+// import MatrixRain from "../components/MatrixRain";
 
 const Home = () => {
 
     return (
         <div>
-            <MatrixRain />
+            {/* <MatrixRain /> */}
         </div>
     )
 }
