@@ -16,3 +16,8 @@
 .App-link {
   color: #61dafb;
 }
+
+@font-face {
+  font-family: 'matrixFont';
+  src: url(./matrixFont.ttf);
+}
