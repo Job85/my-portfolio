@@ -2,7 +2,7 @@ import React from "react"
 import { useNavigate } from 'react-router-dom'
 
 
-const ProjectPage = () => {
+const Project = () => {
     // let navigate = useNavigate()
 
     return (
@@ -15,4 +15,4 @@ const ProjectPage = () => {
 
 }
 
-export default ProjectPage
+export default Project
