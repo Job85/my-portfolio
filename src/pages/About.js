@@ -1,15 +1,17 @@
 import React from "react";
+import { Paragraph } from "../components/ComopnentStyles";
+import { Div } from "../components/ComopnentStyles";
 
 const About = () => {
 
     return (
         <div>
             <section>
-                <div>
+                <Div>
                     <h3> Greetings, from sunny Florida!</h3>
-                </div>
+                </Div>
                 <div>
-                    <p>
+                    <Paragraph>
                         I'm Julian, a Full-Stack Developer from the Tampa Bay Area. And I'm here to help your organization.
                         Coming from a background in hospitality,
                         particularly special events, I know what it means to work in cooperation with others. Likewise, I bring
@@ -17,7 +19,7 @@ const About = () => {
                         "get to yes" philosophy when it comes to gratifying clients and satisfying thier needs. Creativity
                         inspires
                         me and drives me to find resourceful methods to challenges I face.
-                    </p>
+                    </Paragraph>
                 </div>
             </section>
         </div>

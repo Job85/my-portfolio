@@ -1,26 +1,40 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
-// import pic from '../HeadShot.jpeg'
-import { NavBox, NavContainer, NavLink } from './ComopnentStyles'
+import { NavLink, Link } from 'react-router-dom'
+import pic from '../images/mypic.jpeg'
+import { NavBox, NavBarContainer, NavUl, links, Img } from './ComopnentStyles'
 const Header = () => {
 
     return (
         <NavBox>
-            <NavContainer>
+            <div>
+                <Img src={pic} alt="Julian" height={300} width={300} />
+            </div>
+            <NavBarContainer>
                 <div className='nav'>
-                    {/* <nav className='navbar'> */}
                     <div>
-                        <NavLink href='http://localhost:3000/projects'>
-                            <i className='projects'>
-                                <span>Projects</span>
-                            </i>
-                        </NavLink>
-                        <NavLink to='about'>About</NavLink>
-                        <a href='https://docs.google.com/document/d/e/2PACX-1vSiBcnyO1rayLM3WTUw2zhnm5lqbf3cd5wkEdOO3V1gzI2n8FyTaSRQ1wl8E-XH3GhEvEE2c9FnOLAl/pub' target='_blank'>Resume</a>
+                        <NavUl>
+                            {links.map((link, index) => (
+                                <NavLink key={index} to={link.path} exact activeClassName='current'>
+                                    <ul>{link.name}</ul>
+                                </NavLink>
+                            ))}
+                            {/* <NavLink to='projects'>
+                                Projects
+                            </NavLink>
+
+                            <NavLink to='about'>
+                                About
+                            </NavLink> */}
+                        </NavUl>
+                        {/* <Link
+                            href='https://docs.google.com/document/d/e/2PACX-1vSiBcnyO1rayLM3WTUw2zhnm5lqbf3cd5wkEdOO3V1gzI2n8FyTaSRQ1wl8E-XH3GhEvEE2c9FnOLAl/pub'
+                            target='_blank'
+                        >
+                            Resume
+                        </Link> */}
                     </div>
-                    {/* </nav> */}
                 </div>
-            </NavContainer>
+            </NavBarContainer>
         </NavBox>
     )
 }

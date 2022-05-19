@@ -9,12 +9,12 @@ const Footer = () => {
             <FooterContainer>
                 <div>
                     <h1>Social Links</h1>
-                    <FooterLink href='https://github.com/Job85'>
+                    <FooterLink href='https://github.com/Job85' target='_blank'>
                         <i className='FaGithubSquare'>
                             <span>GitHub</span>
                         </i>
                     </FooterLink>
-                    <FooterLink href='https://www.linkedin.com/in/julian-jernigan813/'>
+                    <FooterLink href='https://www.linkedin.com/in/julian-jernigan813/' target='_blank'>
                         <i className='linkedin'>
                             <span>LinkedIn</span>
                         </i>
