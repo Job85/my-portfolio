@@ -31,17 +31,13 @@ import { FaBars } from 'react-icons/fa';
 
 
 export const FooterBox = styled.div`
-    padding-top: 3rem;
-    padding-bottom: 0px;
-    /* padding: 3rem 0px; */
+    box-sizing: border-box;
+    padding-top: 2rem;
+    text-align: center;
     background: black;
-    max-height: 2rem;  
     position: relative;
-    left: 0;
-    right: 0;
     bottom: 0;
-    width: 100%;
-    min-height: calc(100vh - 34px);
+    width: 100vw;
 
     @media (max-width: 1000px) {
         padding: 70 px 30px;
@@ -51,7 +47,7 @@ export const FooterBox = styled.div`
 export const FooterContainer = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 100vw;
     margin: 0 auto;
 `;
@@ -72,16 +68,12 @@ export const NavBox = styled.div`
     box-sizing: border-box;
     padding: 2rem;
     text-align: center;
-    // display: grid;
-    // flex-direction: column;
-    /* padding: 10px 10px; */
     background: black;
     position: absolute;
     top: 0;
     width: 100vw;
-    /* min-height: 30vh; */
 
-    @media (mad-width: 1000px) {
+    @media (max-width: 1000px) {
         padding: 70 px 30px;
     }
 `;
@@ -185,4 +177,16 @@ export const NavBarContainer = styled.div`
     width: 100%;
     padding: 0 24px;
     max-width: 1100px;
+`
+export const NavLink2 = styled.a`
+    color: #ffff;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 35px;
+
+    &:hover{
+        color: green;
+        transition: 200ms ease-in
+    }
 `
