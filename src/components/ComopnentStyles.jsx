@@ -57,6 +57,8 @@ export const FooterLink = styled.a`
     margin-bottom: 20px;
     font-size: 18px;
     text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
 
     &:hover {
     color: green;
@@ -79,7 +81,6 @@ export const NavBox = styled.div`
 `;
 
 export const NavContainer = styled.div`
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
