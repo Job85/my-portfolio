@@ -5,7 +5,7 @@ import { Div } from "../components/ComopnentStyles";
 const About = () => {
 
     return (
-        <div>
+        <div className="content-container">
             <section>
                 <Div>
                     <h3> Greetings, from sunny Florida!</h3>

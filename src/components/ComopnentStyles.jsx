@@ -35,14 +35,15 @@ export const FooterBox = styled.div`
     padding-bottom: 0px;
     /* padding: 3rem 0px; */
     background: black;
-    max-height: 10rem;  
-    position: absolute;
+    max-height: 2rem;  
+    position: relative;
     left: 0;
     right: 0;
     bottom: 0;
     width: 100%;
+    min-height: calc(100vh - 34px);
 
-    @media (mad-width: 1000px) {
+    @media (max-width: 1000px) {
         padding: 70 px 30px;
     }
 `;
@@ -56,12 +57,12 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterLink = styled.a`
-color: #fff;
-margin-bottom: 20px;
-font-size: 18px;
-text-decoration: none;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-decoration: none;
 
-&:hover {
+    &:hover {
     color: green;
     transition: 200ms ease-in;
 }
