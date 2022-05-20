@@ -50,7 +50,11 @@ export const FooterContainer = styled.div`
     max-width: 100vw;
     margin: 0 auto;
 `;
-
+export const ImageContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
 export const FooterLink = styled.a`
     color: #fff;
     margin-bottom: 20px;
@@ -63,28 +67,6 @@ export const FooterLink = styled.a`
     color: green;
     transition: 200ms ease-in;
 }
-`;
-
-export const NavBox = styled.div`
-    box-sizing: border-box;
-    padding: 2rem;
-    text-align: center;
-    background: black;
-    position: relative;
-    top: 0;
-    width: 100vw;
-
-    @media (max-width: 1000px) {
-        padding: 70 px 30px;
-    }
-`;
-
-export const NavContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 100vw;
-    margin: 0 auto;
 `;
 
 export const NavUl = styled.ul`
@@ -147,8 +129,11 @@ export const Div = styled.h3`
 `
 
 export const Img = styled.img`
-    width: 6em;
-    height: 6em;
+    box-sizing: border-box;
+    display: inline;
+    object-fit: contain;
+    width: 20%;
+    height: 20%;
     border-radius: 35%;
     box-shadow: rgb(100 100 100) 2px 2px 2px 2px;
     transition: all 0.6s ease 0s;
@@ -161,32 +146,27 @@ export const Img2 = styled.img`
     object-fit: contain;
     border-radius: 2%;
 `
-
-export const Nav = styled.nav`
-    background: #000;
-    height: 80px;
-    margin-top: -80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    position: sticky;
+export const NavBox = styled.div`
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    background: black;
+    position: relative;
     top: 0;
-    z-index: 10;
+    width: 100vw;
 
-    @media screen and (max-width: 960px) {
-        transition: 0.8s all ease;
+    @media (max-width: 1000px) {
+        padding: 70 px 30px;
     }
-`
+`;
 
 export const NavBarContainer = styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    height: 80px;
-    z-index: 1;
-    width: 100%;
-    padding: 0 24px;
-    max-width: 1100px;
+    align-items: center;
+    max-width: 100vw;
+    margin: 0 auto;
 `
 export const NavLink2 = styled.a`
     color: #ffff;

@@ -1,14 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import pic from '../images/mypic.jpeg'
-import { NavBox, NavBarContainer, NavLink2, NavUl, links, Img } from './ComopnentStyles'
+import pic from '../images/myPic.jpeg'
+import { NavBox, ImageContainer, NavBarContainer, NavLink2, NavUl, links, Img } from './ComopnentStyles'
 const Header = () => {
 
     return (
         <NavBox>
-            <div>
+            <ImageContainer className='image-container'>
                 <Img src={pic} alt="Julian" />
-            </div>
+            </ImageContainer>
             <NavBarContainer>
                 <div className='nav'>
                     <NavUl>
