@@ -5,7 +5,8 @@ const Home = () => {
 
     return (
         <div className="content-container">
-            Home{/* <MatrixRain /> */}
+            Home
+            {/* <MatrixRain /> */}
         </div>
     )
 }
