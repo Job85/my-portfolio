@@ -114,7 +114,7 @@ ul {
 
 export const links = [
     // { name: 'Home', path: '/' },
-    { name: 'About', path: '/' },
+    { name: 'Home', path: '/' },
     { name: 'Projects', path: '/projects' },
     // {
     //     name: 'Resume', href: 'https://docs.google.com/document/d/e/2PACX-1vSiBcnyO1rayLM3WTUw2zhnm5lqbf3cd5wkEdOO3V1gzI2n8FyTaSRQ1wl8E-XH3GhEvEE2c9FnOLAl/pub',
