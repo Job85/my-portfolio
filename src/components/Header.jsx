@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import pic from '../images/mypic.jpeg'
 import { NavBox, NavBarContainer, NavLink2, NavUl, links, Img } from './ComopnentStyles'
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <NavBox>
             <div>
-                <Img src={pic} alt="Julian" height={300} width={300} />
+                <Img src={pic} alt="Julian" />
             </div>
             <NavBarContainer>
                 <div className='nav'>

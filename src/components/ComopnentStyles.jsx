@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { FaBars } from 'react-icons/fa';
 
 // export const Box = styled.div`
 //    width: ${(props) => props.width}; 
@@ -153,6 +152,14 @@ export const Img = styled.img`
     border-radius: 35%;
     box-shadow: rgb(100 100 100) 2px 2px 2px 2px;
     transition: all 0.6s ease 0s;
+`
+export const Img2 = styled.img`
+    box-sizing: border-box;
+    display: inline;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    border-radius: 2%;
 `
 
 export const Nav = styled.nav`
