@@ -1,5 +1,6 @@
 import React from "react";
 import pic1 from '../images/OneRingTrivia.png'
+import pic2 from '../images/InventoryApp.png'
 import pic3 from '../images/SoccerGramERD.png'
 import { Img2 } from "./ComopnentStyles";
 const ProjectCard = () => {
@@ -23,8 +24,8 @@ const ProjectCard = () => {
                     >
                         Restaurant Inventory App
                     </a>
-                    {/* <Img2 src={pic2} alt='RIA' /> */}
                 </h3>
+                <Img2 src={pic2} alt='RIA' />
             </div>
             <div>
                 <h3>
