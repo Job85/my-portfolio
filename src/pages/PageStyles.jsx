@@ -8,3 +8,7 @@ export const Img2 = styled.img`
     object-fit: contain;
     border-radius: 2%;
 `
+
+export const Para = styled.p`
+    font-size: .5em;
+`

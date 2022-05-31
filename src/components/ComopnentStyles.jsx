@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import cn from 'classnames'
 // export const Box = styled.div`
 //    width: ${(props) => props.width}; 
 //    height: ${(props) => props.height};
@@ -141,8 +141,8 @@ export const Img = styled.img`
 export const Img2 = styled.img`
     box-sizing: border-box;
     display: inline;
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
     border-radius: 2%;
 `
@@ -180,3 +180,19 @@ export const NavLink2 = styled.a`
         transition: 200ms ease-in
     }
 `
+export const ProjectContainer = styled.div`
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;    
+`
+export const CardInner = styled.div`
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+`
+
