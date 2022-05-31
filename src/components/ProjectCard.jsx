@@ -7,7 +7,7 @@ const ProjectCard = () => {
 
     return (
         <div>
-            <div className="card" id="card">
+            <div>
                 <h3>
                     <a
                         href="https://job85.github.io/One_Ring_Trivia/" target="_blank"
@@ -15,14 +15,9 @@ const ProjectCard = () => {
                         One Ring Trivia
                     </a>
                 </h3>
-                <div className="front">
-                    <Img2 src={pic1} alt='LOTR' />
-                </div>
-                <div className="back">
-                    Project Details
-                </div>
+                <Img2 src={pic1} alt='LOTR' />
             </div>
-            <div className="card" id="card">
+            <div>
                 <h3>
                     <a
                         href="https://restaurant-inventory-app.herokuapp.com/" target="_blank"
@@ -30,14 +25,9 @@ const ProjectCard = () => {
                         Restaurant Inventory App
                     </a>
                 </h3>
-                <div className="front">
-                    <Img2 src={pic2} alt='RIA' />
-                </div>
-                <div className="back">
-                    Project Details
-                </div>
+                <Img2 src={pic2} alt='RIA' />
             </div>
-            <div className="card" id="card">
+            <div>
                 <h3>
                     <a
                         href="https://guarded-ravine-20374.herokuapp.com/" target="_blank"
@@ -45,12 +35,7 @@ const ProjectCard = () => {
                         SoccerGram
                     </a>
                 </h3>
-                <div className="front">
-                    <Img2 src={pic3} alt='Soccer Gram' />
-                </div>
-                <div className="back">
-                    Project Details
-                </div>
+                <Img2 src={pic3} alt='Soccer Gram' />
             </div>
         </div>
     )
