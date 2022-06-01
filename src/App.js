@@ -21,8 +21,8 @@ function App() {
         {/* <Route path='/about' element={<About />} /> */}
         <Route path='/projects' element={<Project />} />
       </Routes>
-      <footer className='App-footer'>
-        <Footer />
+      <footer >
+        <Footer className='App-footer' />
       </footer>
     </div>
   );

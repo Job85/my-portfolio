@@ -138,14 +138,6 @@ export const Img = styled.img`
     box-shadow: rgb(100 100 100) 2px 2px 2px 2px;
     transition: all 0.6s ease 0s;
 `
-export const Img2 = styled.img`
-    box-sizing: border-box;
-    display: inline;
-    width: 80%;
-    height: 80%;
-    object-fit: contain;
-    border-radius: 2%;
-`
 export const NavBox = styled.div`
     box-sizing: border-box;
     padding: 2rem;
@@ -195,4 +187,3 @@ export const CardInner = styled.div`
     transition: transform 0.8s;
     transform-style: preserve-3d;
 `
-

@@ -1,15 +1,11 @@
-import React from "react"
-import { Div } from "../components/ComopnentStyles"
-// import ProjectCard from "../components/ProjectCard";
-import FlipCard from '../components/FlipCard';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles.scss';
+import React from "react";
+import ProjectCard from '../components/ProjectCard';
 import pic1 from '../images/OneRingTrivia.png'
 import pic2 from '../images/InventoryApp.png'
 import pic3 from '../images/SoccerGramERD.png'
 import { Img2 } from "./PageStyles";
 import { Para } from "./PageStyles";
-
+import '../styles.scss';
 
 const cards = [
     {
@@ -17,9 +13,10 @@ const cards = [
         variant: 'click',
         h3:
             <a
+                className='p-link'
                 href="https://job85.github.io/One_Ring_Trivia/" target="_blank"
             >
-                One Ring Trivia
+                @One Ring Trivia
             </a>,
         front: <Img2 src={pic1} alt='LOTR' />,
         back:
@@ -45,9 +42,10 @@ const cards = [
         variant: 'click',
         h3:
             <a
+                className='p-link'
                 href="https://restaurant-inventory-app.herokuapp.com/" target="_blank"
             >
-                Restaurant Inventory App
+                @Restaurant Inventory App
             </a>,
         front: <Img2 src={pic2} alt='RIA' />,
         back:
@@ -76,9 +74,10 @@ const cards = [
         variant: 'click',
         h3:
             <a
+                className='p-link'
                 href="https://guarded-ravine-20374.herokuapp.com/" target="_blank"
             >
-                SoccerGram
+                @SoccerGram
             </a>,
         front: <Img2 src={pic3} alt='Soccer Gram' />,
         back:
@@ -107,20 +106,12 @@ const cards = [
 const Project = () => {
 
     return (
-        <div className="container">
-            <div className="row h-100">
-                <div class='col d-flex flex-column flex-md-column justify-content-around align-items-center'>
-                    {cards.map((card) => (
-                        <FlipCard key={card.id} card={card} />
-                    ))}
-                </div>
-            </div>
+        <div className='card-box'>
+            <p className='p-text'>hover over card to view details</p>
+            {cards.map((card) => (
+                <ProjectCard key={card.id} card={card} />
+            ))}
         </div>
-        // <div className="container">
-        //     {cards.map((card) => (
-        //         <ProjectCard key={card.id} card={card} />
-        //     ))}
-        // </div>
     )
 
 }
