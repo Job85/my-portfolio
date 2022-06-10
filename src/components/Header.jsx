@@ -3,6 +3,9 @@ import { NavLink } from 'react-router-dom'
 import pic from '../images/mypic.jpeg'
 import { NavBox, ImageContainer, NavBarContainer, NavLink2, NavUl, links, Img } from './ComopnentStyles'
 import { SocialBox, SocialContainer, SocialLink } from './ComopnentStyles'
+import { AiFillGithub } from 'react-icons/ai'
+import { BsLinkedin } from 'react-icons/bs'
+
 const Header = () => {
 
     return (
@@ -27,7 +30,23 @@ const Header = () => {
                     </NavUl>
                 </div>
             </NavBarContainer>
-
+            <SocialBox>
+                <SocialContainer>
+                    <div>
+                        <h3>Social Links</h3>
+                        <SocialLink href='https://github.com/Job85' target='_blank'>
+                            <i className='FaGithubSquare'>
+                                <span><AiFillGithub size={32} /></span>
+                            </i>
+                        </SocialLink>
+                        <SocialLink href='https://www.linkedin.com/in/julian-jernigan813/' target='_blank'>
+                            <i className='linkedin'>
+                                <span><BsLinkedin size={32} /></span>
+                            </i>
+                        </SocialLink>
+                    </div>
+                </SocialContainer>
+            </SocialBox>
         </NavBox>
     )
 }
