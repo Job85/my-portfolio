@@ -29,7 +29,7 @@ import cn from 'classnames'
 //   }
 
 
-export const FooterBox = styled.div`
+export const SocialBox = styled.div`
     box-sizing: border-box;
     padding-top: 2rem;
     text-align: center;
@@ -43,7 +43,7 @@ export const FooterBox = styled.div`
     }
 `;
 
-export const FooterContainer = styled.div`
+export const SocialContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -55,7 +55,7 @@ export const ImageContainer = styled.div`
     flex-direction: column;
     align-items: center;
 `
-export const FooterLink = styled.a`
+export const SocialLink = styled.a`
     color: #fff;
     margin-bottom: 20px;
     font-size: 18px;

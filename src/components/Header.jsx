@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import pic from '../images/mypic.jpeg'
 import { NavBox, ImageContainer, NavBarContainer, NavLink2, NavUl, links, Img } from './ComopnentStyles'
+import { SocialBox, SocialContainer, SocialLink } from './ComopnentStyles'
 const Header = () => {
 
     return (
@@ -26,6 +27,7 @@ const Header = () => {
                     </NavUl>
                 </div>
             </NavBarContainer>
+
         </NavBox>
     )
 }
