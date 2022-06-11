@@ -4,6 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import NavBar from './components/NavBar';
+import Social from './components/Socials';
 import Footer from './components/Footer';
 import Project from './pages/Project'
 import About from './pages/About';
@@ -15,6 +16,7 @@ function App() {
   return (
     <AppDiv>
       <Header />
+      <Social />
       <Main>
         <Routes>
           <Route path='/' element={<About />} />
