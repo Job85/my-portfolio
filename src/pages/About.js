@@ -8,7 +8,7 @@ const About = () => {
         <div className="content-container">
             <section>
                 <Div>
-                    <h3> Greetings, from sunny Florida!</h3>
+                    Greetings, from sunny Florida!
                 </Div>
                 <div>
                     <Paragraph>

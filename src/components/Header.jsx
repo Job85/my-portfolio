@@ -1,9 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import pic from '../images/mypic.jpeg'
-// import { NavBox, ImageContainer, NavBarContainer, NavLink2, NavUl, links, Img } from './ComopnentStyles'
 import { HeaderBox, ImageContainer, Img, NavBox, NavBarContainer, NavUl, links, NavLink2, SocialBox, SocialContainer, SocialLink } from './ComponentStyles2'
-// import { SocialBox, SocialContainer, SocialLink } from './ComopnentStyles'
 import { AiFillGithub } from 'react-icons/ai'
 import { BsLinkedin } from 'react-icons/bs'
 
