@@ -1,6 +1,5 @@
 import React from "react";
-import { Paragraph } from "../components/ComopnentStyles";
-import { Div } from "../components/ComopnentStyles";
+import { Div, Paragraph } from "../components/ComponentStyles2";
 
 const About = () => {
 
