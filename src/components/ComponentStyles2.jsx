@@ -13,6 +13,7 @@ export const HeaderBox = styled.header`
     font-size: calc(10px + 2vmin);
     color: white;
     padding: 1em;
+    box-shadow: rgba(64, 255, 0, 0.75) 0px 3px 3px 3px;
 
     @media (max-width: 1000px) {
         padding: 70px 30px;
@@ -83,13 +84,8 @@ export const NavLink2 = styled.a`
 `
 
 export const links = [
-    // { name: 'Home', path: '/' },
     { name: 'Home', path: '/' },
-    { name: 'Projects', path: '/projects' },
-    // {
-    //     name: 'Resume', path: href = 'https://docs.google.com/document/d/e/2PACX-1vSiBcnyO1rayLM3WTUw2zhnm5lqbf3cd5wkEdOO3V1gzI2n8FyTaSRQ1wl8E-XH3GhEvEE2c9FnOLAl/pub' target='_blank'
-
-    // },
+    { name: 'Projects', path: '/projects' }
 ]
 
 export const linkStyle = `
@@ -105,8 +101,6 @@ export const linkStyle = `
 `
 
 export const ImageContainer = styled.div`
-    // display: flex;
-    // flex-direction: column;
     align-items: center;
 `
 
@@ -124,10 +118,11 @@ export const Img = styled.img`
 export const SocialBox = styled.div`
     box-sizing: border-box;
     padding-top: 2rem;
-    text-align: center;
+    text-align: right;
     backbround: black;
     position: relative;
-    bottom: 0;
+    top: 0;
+    right: 0;
     width: 100vw;
 
     @media (max-width: 1000px) {

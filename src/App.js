@@ -6,14 +6,13 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Project from './pages/Project'
 import About from './pages/About';
+import { AppDiv } from './AppStyles'
 // import MatrixRain from './components/MatrixRain';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-      </header>
+    <AppDiv>
+      <Header />
       <Routes>
         <Route path='/' element={<About />} />
         <Route path='/projects' element={<Project />} />
@@ -21,7 +20,7 @@ function App() {
       <footer>
         <Footer />
       </footer>
-    </div>
+    </AppDiv>
   );
 }
 
