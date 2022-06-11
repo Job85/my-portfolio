@@ -3,6 +3,11 @@
   text-align: center;
 } */
 
+/* .header {
+  grid-area: header;
+} */
+
+
 
 @font-face {
   font-family: 'matrixFont';

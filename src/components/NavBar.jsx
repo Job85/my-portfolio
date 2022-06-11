@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { NavBox, NavBarContainer, NavUl, NavLink2, links, linkStyle } from "./ComponentStyles2";
+import { NavBox, NavBarContainer, NavUl, NavLink2, links } from "./NavBarStyles";
 
-const Nav = () => {
+const NavBar = () => {
 
     return (
         <NavBox>
@@ -25,4 +25,4 @@ const Nav = () => {
     )
 }
 
-export default Nav
+export default NavBar
