@@ -1,5 +1,5 @@
 import React from "react";
-import { Div, Paragraph } from "../components/ComponentStyles2";
+import { Div, Paragraph } from "../components/HeaderStyles";
 
 const About = () => {
 

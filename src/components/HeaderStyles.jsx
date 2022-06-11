@@ -37,29 +37,6 @@ export const Img = styled.img`
     transition: all 0.6s ease 0s;
 `
 
-
-
-export const FooterBox = styled.footer`
-    background-color: black;
-    min-height: 30vh;
-    position: relative;
-    bottom: 0;
-    right: 0;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    padding: 1em;
-
-    @media (max-width: 1000px) {
-        padding: 70px 30px;
-    }
-
-`
-
 export const Div = styled.h3`
      margin-top: 150px;
 `

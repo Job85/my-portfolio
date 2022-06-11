@@ -1,5 +1,5 @@
 import React from "react";
-import { FooterBox } from "./ComponentStyles2";
+import { FooterBox } from "./HeaderStyles";
 
 const Footer = () => {
 
