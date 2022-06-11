@@ -1,23 +1,21 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import pic from '../images/mypic.jpeg'
-import { NavBox, ImageContainer, NavBarContainer, NavLink2, NavUl, links, Img } from './ComopnentStyles'
-import { SocialBox, SocialContainer, SocialLink } from './ComopnentStyles'
+// import { NavBox, ImageContainer, NavBarContainer, NavLink2, NavUl, links, Img } from './ComopnentStyles'
+import { HeaderBox, ImageContainer, Img, NavBox, NavBarContainer, NavUl, links, NavLink2, SocialBox, SocialContainer, SocialLink } from './ComponentStyles2'
+// import { SocialBox, SocialContainer, SocialLink } from './ComopnentStyles'
 import { AiFillGithub } from 'react-icons/ai'
 import { BsLinkedin } from 'react-icons/bs'
 
 const Header = () => {
 
     return (
-        <NavBox>
-            <ImageContainer className='image-container'>
-                <Img src={pic} alt="Julian" />
-            </ImageContainer>
-            <NavBarContainer>
-                <div className='nav'>
+        <HeaderBox>
+            <NavBox>
+                <NavBarContainer>
                     <NavUl>
                         {links.map((link, index) => (
-                            <NavLink key={index} to={link.path} exact activeClassName='current'>
+                            <NavLink key={index} to={link.path}>
                                 <ul>{link.name}</ul>
                             </NavLink>
                         ))}
@@ -28,12 +26,16 @@ const Header = () => {
                             Resume
                         </NavLink2>
                     </NavUl>
-                </div>
-            </NavBarContainer>
+                </NavBarContainer>
+            </NavBox>
+            <ImageContainer className='image-container'>
+                <Img src={pic} alt="Julian" />
+                <p>Julian Jernigan</p>
+            </ImageContainer>
             <SocialBox>
                 <SocialContainer>
                     <div>
-                        <h3>Social Links</h3>
+                        <h6>Social Links</h6>
                         <SocialLink href='https://github.com/Job85' target='_blank'>
                             <i className='FaGithubSquare'>
                                 <span><AiFillGithub size={32} /></span>
@@ -47,7 +49,7 @@ const Header = () => {
                     </div>
                 </SocialContainer>
             </SocialBox>
-        </NavBox>
+        </HeaderBox>
     )
 }
 
