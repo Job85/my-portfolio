@@ -8,12 +8,12 @@ export const HeaderBox = styled.header`
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(1.6rem + 2vmin);
     color: white;
-    padding: 1em;
+    padding: 1rem;
 
     @media (max-width: 1000px) {
-        padding: 70px 30px;
+        padding: 4.3rem 1.8rem;
     }
 
 `
@@ -23,12 +23,13 @@ export const HeaderContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
+    margin-left: 7rem;
 `
 
 export const ImageContainer = styled.div`
-    height: 40vh;
-    width: 20vw;
-    margin-left: 7em;
+    height: 10rem;
+    width: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,5 +41,5 @@ export const Img = styled.img`
     width: 85%;
     height: 85%;
     border-radius: 35%;
-    box-shadow: 2px 2px #008000cc, 0.4em -0.5em #008000cc;
+    box-shadow: .125rem .125rem #008000cc, 0.4rem -0.5rem #008000cc;
 `
