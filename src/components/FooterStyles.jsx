@@ -3,11 +3,9 @@ import styled from 'styled-components'
 export const FooterBox = styled.footer`
     grid-area: footer;
     background-color: black;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(2rem + 2vmin);
     color: white;
     padding: 1em;
-    position: sticky;
-    position: -webkit-sticky;
     bottom: 0;
     left: 0;
 
