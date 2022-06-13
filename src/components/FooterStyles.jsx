@@ -6,6 +6,10 @@ export const FooterBox = styled.footer`
     font-size: calc(10px + 2vmin);
     color: white;
     padding: 1em;
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0;
+    left: 0;
 
     @media (max-width: 1000px) {
         padding: 70px 30px;

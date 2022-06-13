@@ -18,16 +18,25 @@ export const HeaderBox = styled.header`
 
 `
 
+export const HeaderContainer = styled.div`
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`
+
 export const ImageContainer = styled.div`
     height: 40vh;
     width: 20vw;
     margin-left: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 export const Img = styled.img`
     box-sizing: border-box;
     display: inline;
-    object-fit: contain;
     width: 85%;
     height: 85%;
     border-radius: 35%;
