@@ -3,10 +3,6 @@ import styled from 'styled-components'
 export const FooterBox = styled.footer`
     grid-area: footer;
     background-color: black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    // justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
     padding: 1em;
@@ -15,4 +11,16 @@ export const FooterBox = styled.footer`
         padding: 70px 30px;
     }
 
+`
+
+export const FooterContainer = styled.div`
+    max-width: 100vw;
+    color: #8080802e;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    &:hover {
+        border: solid #008000cc;
+        color: #008000cc;
+    }
 `

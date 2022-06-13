@@ -22,7 +22,7 @@ export const NavUl = styled.ul`
         text-decoration: none;
         
         &:hover{
-            color: green;
+            color: #008000cc;
             transition: 200ms ease-in;
             box-shadow: #008000cc 0px 0px 1px 3px;
 
@@ -41,7 +41,7 @@ export const Ul = styled.ul`
     color: white;
     
     &:hover {
-        color: green;
+        color: #008000cc;
         transition: 200ms ease-in;
     }
 `
