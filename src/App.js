@@ -14,8 +14,8 @@ import { Main } from './AppStyles';
 
 function App() {
   return (
-    <AppDiv>
-      <Header />
+    <AppDiv className='App-wrapper'>
+      <Header className='header' />
       <Social />
       <Main>
         <Routes>
@@ -23,10 +23,8 @@ function App() {
           <Route path='/projects' element={<Project />} />
         </Routes>
       </Main>
-      <NavBar />
-      <footer>
-        <Footer />
-      </footer>
+      <NavBar className='nav' />
+      <Footer />
     </AppDiv>
   );
 }

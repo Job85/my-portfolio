@@ -1,12 +1,10 @@
 import React from "react";
-import { FooterBox } from "./HeaderStyles";
+import { FooterBox } from "./FooterStyles";
 
 const Footer = () => {
 
     return (
-        <FooterBox>
-
-        </FooterBox>
+        <FooterBox />
     )
 }
 

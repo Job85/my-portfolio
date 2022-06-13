@@ -2,26 +2,28 @@ import styled from 'styled-components';
 
 export const SocialBox = styled.div`
     grid-area: social;
-    box-sizing: border-box;
-    padding-top: 2rem;
-    text-align: right;
-    backbround: black;
-    position: relative;
-    top: 0;
-    right: 0;
-    width: 100vw;
-
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
     @media (max-width: 1000px) {
         padding: 70px 30px;
     }
-`
+    `
 
 export const SocialContainer = styled.div`
     display: flex;
+    background-color: black;
     flex-direction: column;
     justify-content: space-between;
     max-width: 100vw;
     margin: 0 auto;
+    box-shadow: #008000cc 3px 1px 1px 3px;
 `
 
 export const SocialLink = styled.a`
@@ -33,7 +35,7 @@ export const SocialLink = styled.a`
     padding-right: 10px;
 
     &:hover {
-        color: green;
+        color: #008000cc;
         transition: 200ms ease-in;
     }
 `

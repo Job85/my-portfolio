@@ -1,22 +1,25 @@
 import styled from 'styled-components';
 
 export const AppDiv = styled.div`
+    background-color: aquamarine;
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template: 1fr 5fr 1fr / 1fr 4fr;
-    gap: 10px;
+    grid-template: repeat(5/ 5,  20%);
     grid-template-areas: 
-        'header social'
-        'nav main'
-        'footer footer'
+        'header header header header social'
+        'nav nav nav main main'
+        'footer footer footer footer footer'
     ;
 `
 
 export const Main = styled.main`
-    height: 100vh;
-    width: 100vh;
     grid-area: main;
+    background-color: whitesmoke;
     display: flex;
-    flex-direction: column;
+    flex-direction: coloumn;
+
+    @media (max-width: 1000px) {
+        padding: 70px 30px;
+    }
 `

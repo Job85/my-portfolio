@@ -8,7 +8,7 @@ const Header = () => {
         <HeaderBox>
             <ImageContainer className='image-container'>
                 <Img src={pic} alt="Julian" />
-                <p>Julian Jernigan</p>
+                <h5>Julian Jernigan</h5>
             </ImageContainer>
         </HeaderBox>
     )
