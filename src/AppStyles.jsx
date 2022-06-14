@@ -17,9 +17,12 @@ export const Main = styled.main`
     grid-area: main;
     background-color: whitesmoke;
     display: flex;
-    flex-direction: coloumn;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
     @media (max-width: 1000px) {
-        padding: 70px 30px;
+        padding: 4.3rem 1.8rem;
     }
 `
