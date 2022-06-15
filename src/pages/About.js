@@ -25,7 +25,7 @@ const H3 = styled.h3`
         0 2px 0 #ccc, 0 2.5px 0 #ccc,
         0 3px 0 #ccc, 0 3.5px 0 #ccc,
         0 4px 0 #ccc, 0 4.5px 0 #ccc,
-        0 20px 30px rgba(153, 255, 153, 5);
+        0 10px 20px rgba(153, 255, 153, 1);
 `
 const Paragraph = styled.p`
     margin-top: 3.125rem;
