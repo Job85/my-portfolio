@@ -5,7 +5,7 @@ export const NavBox = styled.div`
     background: black;
 
     @media (max-width: 1000px) {
-        padding: 70 px 30px;
+        padding: 70px 30px;
     }
 `
 
@@ -55,5 +55,6 @@ export const NavLink2 = styled.a`
 
 export const links = [
     { name: 'Home', path: '/' },
-    { name: 'Projects', path: '/projects' }
+    { name: 'Projects', path: '/projects' },
+    // { name: 'Projects2', path: '/projects2' }
 ]

@@ -15,7 +15,7 @@ export const AppDiv = styled.div`
 
 export const Main = styled.main`
     grid-area: main;
-    background-color: whitesmoke;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;

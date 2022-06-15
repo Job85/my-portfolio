@@ -6,7 +6,7 @@ import Header from './components/Header';
 import NavBar from './components/NavBar';
 import Social from './components/Socials';
 import Footer from './components/Footer';
-import Project from './pages/Project'
+import Projects from './pages/Projects';
 import About from './pages/About';
 import { AppDiv } from './AppStyles';
 import { Main } from './AppStyles';
@@ -20,7 +20,7 @@ function App() {
       <Main>
         <Routes>
           <Route path='/' element={<About />} />
-          <Route path='/projects' element={<Project />} />
+          <Route path='/projects' element={<Projects />} />
         </Routes>
       </Main>
       <NavBar className='nav' />

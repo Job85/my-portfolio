@@ -38,3 +38,7 @@
     color: green;
     transform: rotateY(180deg);
 }
+
+.card.flip {
+    --rotate-x: 180deg;
+}
