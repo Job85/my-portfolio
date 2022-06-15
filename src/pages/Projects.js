@@ -20,8 +20,8 @@ const H1 = styled.h1`
     text-shadow: 
         0 1px 0 #ccc, 0 1.5px 0 #ccc,
         0 2px 0 #ccc, 0 2.5px 0 #ccc,
-        0 3px 0 #ccc, 0 3.5px 0 #ccc,
-        0 20px 30px rgba(153, 255, 153, 5);
+        /* 0 3px 0 #ccc, 0 3.5px 0 #ccc, */
+        0 5px 10px rgba(153, 255, 153, .5);
 `
 
 const Img2 = styled.img`
