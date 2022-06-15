@@ -14,13 +14,21 @@ const CardBox = styled.div`
     }
 `
 
+const H1 = styled.h1`
+    color: white;
+    font-size: 2rem;
+    text-shadow: 
+        0 1px 0 #ccc, 0 1.5px 0 #ccc,
+        0 2px 0 #ccc, 0 2.5px 0 #ccc,
+        0 3px 0 #ccc, 0 3.5px 0 #ccc,
+        0 20px 30px rgba(153, 255, 153, 5);
+`
+
 const Img2 = styled.img`
-    box-sizing: border-box;
-    display: inline;
     width: 100%;
     height: 100%;
     object-fit: contain;
-    border-radius: 2%;
+    /* border-radius: 2%; */
 `
 
 const Para = styled.p`
@@ -131,11 +139,14 @@ const cards = [
 const Projects = () => {
 
     return (
-        <CardBox>
-            {cards.map((card) => (
-                <Card key={card.id} card={card} />
-            ))}
-        </CardBox>
+        <div>
+            <H1>Click on card for detials</H1>
+            <CardBox>
+                {cards.map((card) => (
+                    <Card key={card.id} card={card} />
+                ))}
+            </CardBox>
+        </div>
     )
 }
 
