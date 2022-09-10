@@ -8,7 +8,8 @@ export const FooterBox = styled.footer`
     padding: 1em;
     bottom: 0;
     left: 0;
-
+    border: white solid;
+    
     @media (max-width: 1000px) {
         padding: 70px 30px;
     }

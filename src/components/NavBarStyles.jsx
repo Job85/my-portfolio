@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const NavBox = styled.div`
     grid-area: nav;
     background: black;
+    border: white solid;
 
     @media (max-width: 1000px) {
         padding: 70px 30px;

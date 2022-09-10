@@ -11,6 +11,7 @@ export const HeaderBox = styled.header`
     font-size: calc(1.6rem + 2vmin);
     color: white;
     padding: 1rem;
+    border: white solid;
 
     @media (max-width: 1000px) {
         padding: 4.3rem 1.8rem;

@@ -10,11 +10,12 @@ export const SocialBox = styled.div`
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    border: white solid;
     
     @media (max-width: 1000px) {
         padding: 70px 30px;
     }
-    `
+`
 
 export const SocialContainer = styled.div`
     display: flex;
