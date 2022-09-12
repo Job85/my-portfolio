@@ -15,7 +15,7 @@ import { Main } from './AppStyles';
 function App() {
   return (
     <AppDiv className='App-wrapper'>
-      <Header className='header' />
+      {/* <Header className='header' /> */}
       <Social />
       <Main>
         <Routes>

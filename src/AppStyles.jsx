@@ -7,8 +7,8 @@ export const AppDiv = styled.div`
     display: grid;
     grid-template: repeat(5/ 5,  20%);
     grid-template-areas: 
-        'header header header header social'
-        'nav nav nav main main'
+        'nav header header header social'
+        'main main main main main'
         'footer footer footer footer footer'
     ;
 `
