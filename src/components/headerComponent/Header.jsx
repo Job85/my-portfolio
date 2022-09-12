@@ -1,5 +1,5 @@
 import React from 'react'
-import pic from '../images/mypic.jpeg'
+import pic from '../../images/mypic.jpeg'
 import { HeaderBox, HeaderContainer, ImageContainer, Img } from './HeaderStyles'
 
 const Header = () => {

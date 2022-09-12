@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Card from '../components/Card';
+import Card from '../components/cardComponent/Card';
 import pic1 from '../images/OneRingTrivia.png'
 import pic2 from '../images/InventoryApp.png'
 import pic3 from '../images/SoccerGramERD.png'
