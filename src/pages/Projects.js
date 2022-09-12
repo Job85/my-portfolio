@@ -140,7 +140,7 @@ const Projects = () => {
 
     return (
         <div>
-            <H1>Click on card for detials</H1>
+            <H1>Click on card for details</H1>
             <CardBox>
                 {cards.map((card) => (
                     <Card key={card.id} card={card} />
